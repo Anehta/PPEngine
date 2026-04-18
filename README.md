@@ -28,10 +28,11 @@
 [🖼️ Gallery](#-2-global-ship-view) •
 [📐 Measurement](#-3-measurement--inspection) •
 [🕶️ XR / VR](#-4-xr--vr-design-review) •
-[🗂️ Workspace](#-5-workspace-management) •
-[🔌 Extractors](#-6-extraction-plugins) •
-[📖 Manual](#-7-operation-manual) •
-[📬 Contact](#-8-contact)
+[✦ 3DGS](#-5-3d-gaussian-splatting) •
+[🗂️ Workspace](#-6-workspace-management) •
+[🔌 Extractors](#-7-extraction-plugins) •
+[📖 Manual](#-8-operation-manual) •
+[📬 Contact](#-9-contact)
 
 <br/>
 
@@ -67,11 +68,11 @@ PPEngine is actually **two things shipped together**:
 
 > 🌍 **True cross-platform — one engine, every device.**
 > **Native PC (Windows) · Linux · Android · iOS · Web** — the same engine, the same scene, the same feature set.
-> 🎮 **Modern graphics APIs everywhere:** native platforms run on **DX12 / Vulkan**; the Web build runs on **WebGPU**; and **OpenXR** rendering is supported first-class for immersive VR / AR design review — no legacy code paths, no lowest-common-denominator compromises. *(WebGL fallback available on request — [contact us](#-8-contact).)*
+> 🎮 **Modern graphics APIs everywhere:** native platforms run on **DX12 / Vulkan**; the Web build runs on **WebGPU**; and **OpenXR** rendering is supported first-class for immersive VR / AR design review — no legacy code paths, no lowest-common-denominator compromises. *(WebGL fallback available on request — [contact us](#-9-contact).)*
 > The Web build is particularly wild: we **bypass the browser's V8 memory ceiling** with an engine-level memory architecture, so a **full-ship 10 GB-class model loads and renders in the browser** — something conventional WebGL viewers hit a wall on long before they get close.
 
 > 📦 **Open SDK — 🚧 in active development.**
-> A public SDK for PP3D Core is on the way — embed the engine in your own apps, extend pipelines, script business logic, and ship custom viewers on any supported platform. [Get in touch](#-8-contact) if you'd like early access or want to shape the API surface.
+> A public SDK for PP3D Core is on the way — embed the engine in your own apps, extend pipelines, script business logic, and ship custom viewers on any supported platform. [Get in touch](#-9-contact) if you'd like early access or want to shape the API surface.
 
 PPEngine is commonly used to extract model and attribute information from **Tribon / AM / SPD / CATIA**, and to generate lightweight models in real-time via a dedicated conversion server. Users can quickly view, annotate, and record on-site.
 
@@ -179,7 +180,26 @@ A cross-platform high-performance display library with comprehensive APIs and cu
 
 ---
 
-## 🗂️ 5. Workspace Management
+## ✦ 5. 3D Gaussian Splatting
+
+> Native support for **3D Gaussian Splatting** — drop photo-scanned real-world scenes right next to traditional CAD meshes in the same viewport. Perfect for **as-built vs. as-designed** comparisons, site digital twins, and mixing reality capture with engineering models.
+
+<div align="center">
+
+<img src="capture/3dgs.png" alt="3D Gaussian Splatting scene" width="88%" />
+
+</div>
+
+**✨ Why it matters:**
+
+- 📷 **Reality capture** — load `.ply` Gaussian Splat scans directly, no conversion pipeline needed
+- 🔀 **Mixed scenes** — photo-real splats and parametric CAD geometry live in the same workspace
+- 🎯 **As-built verification** — overlay site scans against design models to spot deviations
+- 🌐 **Cross-platform** — the same splat scene runs on desktop, web (WebGPU), and in-headset (OpenXR)
+
+---
+
+## 🗂️ 6. Workspace Management
 
 > PPEngine persists an entire review session into a single **`.ppws`** workspace file — so your review work is reproducible, portable, and easy to share.
 
@@ -215,11 +235,11 @@ Models are referenced by **relative paths**, so a workspace folder (or packed `.
 
 ---
 
-## 🔌 6. Extraction Plugins
+## 🔌 7. Extraction Plugins
 
 > PPEngine consumes lightweight data produced by dedicated extractors. Two plugins ship out of the box:
 
-### 🧲 6.1 AM Extractor — `PPAMExtractor.exe`
+### 🧲 7.1 AM Extractor — `PPAMExtractor.exe`
 
 <div align="center">
 <img src="capture/PPAMExtractor.png" alt="AM Extractor" width="70%" />
@@ -233,7 +253,7 @@ Models are referenced by **relative paths**, so a workspace folder (or packed `.
 2. 🔑 Enter **Username**, **Password**, and **MDB** connection
 3. 🎬 Click **Start** to extract
 
-### 🛳️ 6.2 Tribon M3 Extractor — `PPM3Exporter.exe`
+### 🛳️ 7.2 Tribon M3 Extractor — `PPM3Exporter.exe`
 
 <div align="center">
 <img src="capture/PPM3ExtractorV.png" alt="Tribon M3 Extractor" width="70%" />
@@ -248,7 +268,7 @@ Models are referenced by **relative paths**, so a workspace folder (or packed `.
 
 ---
 
-## 📖 7. Operation Manual
+## 📖 8. Operation Manual
 
 > The full operation manual ships **inside the release archive** — extract `PPEngineV1.8.5.7z` and open the included manual for detailed usage, hotkeys, and troubleshooting.
 
@@ -262,7 +282,7 @@ Models are referenced by **relative paths**, so a workspace folder (or packed `.
 
 ---
 
-## 📬 8. Contact
+## 📬 9. Contact
 
 <div align="center">
 
