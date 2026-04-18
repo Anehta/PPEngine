@@ -195,7 +195,7 @@ A cross-platform high-performance display library with comprehensive APIs and cu
 - 📷 **Reality capture** — load `.ply` Gaussian Splat scans directly, no conversion pipeline needed
 - 🔀 **Mixed scenes** — photo-real splats and parametric CAD geometry live in the same workspace
 - 🎯 **As-built verification** — overlay site scans against design models to spot deviations
-- 🌐 **Cross-platform** — the same splat scene runs on desktop, web (WebGPU), and in-headset (OpenXR)
+- 🌐 **Runs everywhere — yes, including the browser.** Desktop (DX12 / Vulkan) · **Web (WebGPU)** · in-headset (OpenXR). Splat scenes render fully in-browser with no plugins, no downloads, just a URL.
 
 ---
 
