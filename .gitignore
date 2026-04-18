@@ -1,0 +1,45 @@
+# Compressed archives (uploaded to GitHub Releases instead)
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+*.gz
+*.bz2
+*.xz
+*.lz
+*.lzma
+*.lz4
+*.zst
+*.cab
+*.iso
+
+# Office documents (manuals distributed via Release archives)
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.xlsx
+*.xls
+
+# Internal working files
+README-prompt.md
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
