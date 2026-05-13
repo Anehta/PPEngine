@@ -30,6 +30,12 @@
 # Internal working files
 README-prompt.md
 
+# Local maintenance scripts — not part of the release
+*.ps1
+
+# Release notes are pasted into GitHub Releases UI, not committed
+release_notes.md
+
 # OS metadata
 Thumbs.db
 ehthumbs.db
