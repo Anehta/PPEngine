@@ -25,7 +25,7 @@
 <br/>
 
 [🎬 Overview](#-1-overview) •
-[🖼️ Gallery](#-2-global-ship-view) •
+[🖼️ Gallery](#-2-global-ship--plant-view) •
 [📐 Measurement](#-3-measurement--inspection) •
 [🕶️ XR / VR](#-4-xr--vr-design-review) •
 [✦ 3DGS](#-5-3d-gaussian-splatting) •
@@ -124,9 +124,11 @@ A cross-platform high-performance display library with comprehensive APIs and cu
 
 ---
 
-## 🖼️ 2. Global Ship View
+## 🖼️ 2. Global Ship & Plant View
 
-> Full-vessel lightweight rendering — tens of millions of triangles, loaded in seconds.
+> Full-vessel and full-plant lightweight rendering — tens of millions of triangles, loaded in seconds.
+
+### 🚢 Ship Overview
 
 <div align="center">
 
@@ -137,6 +139,25 @@ A cross-platform high-performance display library with comprehensive APIs and cu
 <img src="capture/ship2.png" alt="Full ship alternate view" width="88%" />
 
 </div>
+
+### 🏭 Plant Design — SmartPlant 3D `.vue` Native Support &nbsp;<sub>**NEW · v1.9.8**</sub>
+
+> **Direct `.vue` import** with our in-house parser — **no conversion layer**.
+> Geometry and B-Rep parsing & construction run entirely on our self-developed **PP3D Core** kernel — **zero external geometry-kernel dependencies.**
+> Plant-scale PLM equipment libraries now load **directly in the browser** too.
+
+<div align="center">
+
+<img src="capture/vue.png" alt="SmartPlant 3D .vue plant model loaded in PPEngine" width="88%" />
+
+</div>
+
+**✨ Why it matters:**
+
+- 🔧 **PP3D Core geometry kernel** — first-party CAD geometry layer, no third-party kernels in the loop. Foundation for future real-time editing and parametric modeling.
+- ⚡ **In-house `.vue` parser** — no intermediate format, no double conversion, full fidelity preserved.
+- 🌐 **Web-ready** — plant models render in the browser at native quality.
+- 🏗️ Built for **process plant · oil & gas · power generation** — the kind of geometry where every flange, support, and cable tray counts.
 
 ---
 
