@@ -8,7 +8,7 @@
 
 *Built for **shipbuilding · marine engineering · plant design** — cross-platform · high-performance · production-proven*
 
-**Supported formats:** &nbsp;`REV` &nbsp;·&nbsp; `RVM` &nbsp;·&nbsp; `STEP` &nbsp;·&nbsp; `3D Gaussian Splatting`
+**Supported formats:** &nbsp;`REV` &nbsp;·&nbsp; `RVM` &nbsp;·&nbsp; `STEP` &nbsp;·&nbsp; `VUE` &nbsp;·&nbsp; `3D Gaussian Splatting`
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 <br/>
 
-![Version](https://img.shields.io/badge/version-1.8.5-blue?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.9.8-blue?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Web%20%7C%20Android%20%7C%20VR%2FAR-lightgrey?style=flat-square)
 ![License](https://img.shields.io/badge/license-Free-green?style=flat-square)
 ![Model Size](https://img.shields.io/badge/10GB%20model-~5s%20load-orange?style=flat-square)
@@ -44,7 +44,7 @@ Grab the `.7z` archives below and you're ready to go:
 
 | 📦 Archive | 📝 Contents |
 | :-- | :-- |
-| 🎨 `PPEngineV1.8.5.7z` | PPEngine viewer **+ operation manual** |
+| 🎨 `PPEngineV1.9.8.7z` | PPEngine viewer **+ operation manual** |
 | 🧲 `PPAMExtractor.7z` | AM extraction plugin |
 | 🛳️ `PPM3Exporter.7z` | Tribon M3 extraction plugin |
 
@@ -58,7 +58,7 @@ PPEngine is actually **two things shipped together**:
 
 | | Product | What it is |
 | :-- | :-- | :-- |
-| 🚢 | **PPEngine** — *Professional Model Review Tool* | A free, focused desktop + web application for lightweight conversion, viewing, digital delivery, and **design review** of large-scale industrial models. Currently ingests **`REV` · `RVM` · `STEP` · `3D Gaussian Splatting`**. Purpose-built for **shipbuilding, marine engineering, and plant design**. |
+| 🚢 | **PPEngine** — *Professional Model Review Tool* | A free, focused desktop + web application for lightweight conversion, viewing, digital delivery, and **design review** of large-scale industrial models. Currently ingests **`REV` · `RVM` · `STEP` · `VUE` (SmartPlant 3D) · `3D Gaussian Splatting`**. Purpose-built for **shipbuilding, marine engineering, and plant design**. |
 | 🧠 | **PP3D Core** — *Graphics Kernel* | The self-developed cross-platform graphics kernel underneath PPEngine. A licensable engine/SDK layer you can embed and extend — comprehensive APIs, customizable on demand. |
 
 > In short: **PPEngine is the product you use today. PP3D Core is the engine you can build on tomorrow.**
@@ -270,13 +270,13 @@ Models are referenced by **relative paths**, so a workspace folder (or packed `.
 
 ## 📖 8. Operation Manual
 
-> The full operation manual ships **inside the release archive** — extract `PPEngineV1.8.5.7z` and open the included manual for detailed usage, hotkeys, and troubleshooting.
+> The full operation manual ships **inside the release archive** — extract `PPEngineV1.9.8.7z` and open the included manual for detailed usage, hotkeys, and troubleshooting.
 
 ### 📦 Release archives
 
 | 📁 Archive              | 📝 Contents                                            |
 | :--------------------- | :---------------------------------------------------- |
-| 🎨 `PPEngineV1.8.5.7z`  | PPEngine viewer **+ operation manual**               |
+| 🎨 `PPEngineV1.9.8.7z`  | PPEngine viewer **+ operation manual**               |
 | 🧲 `PPAMExtractor.7z`   | AM extraction plugin                                  |
 | 🛳️ `PPM3Exporter.7z`    | Tribon M3 extraction plugin                          |
 
